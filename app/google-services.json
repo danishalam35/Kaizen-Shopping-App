@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539142503189",
+    "project_id": "aizen-online-smart-shop",
+    "storage_bucket": "aizen-online-smart-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539142503189:android:e74e830e9f1e23a4f4c71c",
+        "android_client_info": {
+          "package_name": "com.example.aizenonlinesmartshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539142503189-a02e4i85qcq8mbfjnu00qo094rb5e371.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPTYo5Pk0EjoMALdDrnwWa86Cj180pM1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539142503189-a02e4i85qcq8mbfjnu00qo094rb5e371.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

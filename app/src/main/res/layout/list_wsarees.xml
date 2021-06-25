@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        >
+
+        <ImageView
+            android:id="@+id/CImage"
+            android:layout_width="200dp"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/fhj"
+       />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#F4EEEE" />
+
+
+        <TextView
+            android:id="@+id/prName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lehnga"
+            android:textColor="#000"
+            android:layout_marginTop="245dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/cName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NK DRY TOP"
+            android:fontFamily="@font/alegreya"
+            android:layout_marginTop="266dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="999"
+
+            android:textColor="#010101"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="16dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="320dp"
+            android:background="#F4EEEE" />
+    </RelativeLayout>
+
+
+</GridLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2EEEE"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardCornerRadius="8dp"
+            android:elevation="8dp"
+            android:padding="0dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="CATEGORIES TO BAG"
+                android:fontFamily="@font/alegreya"
+                android:layout_marginHorizontal="20sp"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="40sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:onClick="menfashion"
+                    android:src="@drawable/mens" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="12dp"
+                        app:civ_border_width="1dp"
+                        app:civ_border_color="@color/colorPrimary"
+                        android:onClick="menfashion"
+                        android:src="@drawable/mens" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="12dp"
+                        android:onClick="menfashion"
+                        android:src="@drawable/mens" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mens Shirt"
+                    android:textColor="#c101"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/alegreya"
+                    android:layout_marginLeft="35dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mens T-Shirt"
+                        android:textColor="#c101"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/alegreya"
+                        android:layout_marginLeft="45dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mens Watch"
+                        android:textColor="#c101"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/alegreya"
+                        android:layout_marginLeft="40dp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="190sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:onClick="menfashion"
+                        android:src="@drawable/mens" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="12dp"
+                        android:onClick="menfashion"
+                        android:src="@drawable/mens" />
+                    <de.hdodenhof.circleimageview.CircleImageView
+
+                        android:layout_width="100dp"
+                        android:layout_height="110dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="12dp"
+                        android:onClick="menfashion"
+                        android:src="@drawable/mens" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="120dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mens Trousers"
+                        android:textColor="#c101"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/alegreya"
+                        android:layout_marginLeft="25dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mens Shoes"
+                        android:textColor="#c101"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/alegreya"
+                        android:layout_marginLeft="45dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Head Phones"
+                        android:textColor="#c101"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/alegreya"
+                        android:layout_marginLeft="40dp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
